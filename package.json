@@ -1,0 +1,19 @@
+{
+  "name": "download-to-disk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [],
+  "author": "Sarath TK <saratonite@gmx.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saratonite/download-to-disk.git"
+  }
+}
