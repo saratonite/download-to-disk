@@ -1,5 +1,5 @@
 /**
- * Download to Disk 
+ * file-downloadr 
  * A Simple library to download file and save to disk
  * Author : Sarath TK <Saratonite>
  * https://sarath.tk  / https://saratonite.github.io
@@ -8,6 +8,12 @@
 const fs = require('fs');
 const request = require('request');
 
+/**
+ * 
+ * @param {*} url 
+ * @param {*} outputFile 
+ * @param {*} options 
+ */
 async function download(url, outputFile, options) {
     if (!url) return Error('Download url not provided')
     if (!outputFile) return Error('Output file path not provide')

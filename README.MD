@@ -7,11 +7,24 @@ A file downloader package top of request :zap:
 - Support Promise and async/ await :fire:
 - Capture timeout errors :zap:
 
+## Installation
+
+```shell
+npm install file-downloadr
+```
+
+Or
+
+```shell
+yarn add file-downloadr
+```
+
 ## Usage
 
 ```javascript
+const fdownload = require("file-downloadr");
 try {
-  download(
+  fdownload(
     "http://example/big-file.zip",
     "/home/dummy/downloads/big-file.zip",
     options
@@ -24,7 +37,9 @@ try {
 Or Promise API
 
 ```javascript
-download(
+const fdownload = require("file-downloadr");
+
+fdownload(
   "http://example/big-file.zip",
   "/home/dummy/downloads/big-file.zip",
   options

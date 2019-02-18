@@ -1,12 +1,12 @@
 {
   "name": "file-downloadr",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "Download and save files using http request",
+  "main": "src/index.js",
   "scripts": {
     "test": "node test/index.js"
   },
-  "keywords": [],
+  "keywords": ["download", "file downloader", "http file downloader", "download and save", "node file downloader"],
   "author": "Sarath TK <saratonite@gmx.com>",
   "license": "MIT",
   "dependencies": {
